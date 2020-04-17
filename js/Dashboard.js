@@ -40,7 +40,7 @@ function OnStatusUpdate(data) {
     statusLabel.innerText = data.status.toUpperCase();
 
     switch (statusLabel.innerText) {
-        case "hHAZIRH":
+        case "READY":
             statusLabel.style.color = "rgb(50,205,50)";
             break;
         case "LOADING BOTS":

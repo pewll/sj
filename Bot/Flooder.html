@@ -19,9 +19,9 @@
       const channelBox = document.getElementById('channel-id');
 
       if (document.getElementById('dm-channel').checked)
-        channelBox.placeholder = 'User ID';
+        channelBox.placeholder = 'Kullanıcı ID';
       else 
-        channelBox.placeholder = 'Channel ID';
+        channelBox.placeholder = 'Kanal ID';
     }
 
 
@@ -43,7 +43,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial scale=1.0">
     <link rel="Icon" type="image/x-icon" href="../Images/Anarchy.png">
-    <title>Flooder - OpenDH</title>
+    <title>Loz 'Bey</title>
 
 
     <!-- CSS -->
@@ -91,7 +91,7 @@
                 <li><a href="Leaver.html">Sunucudan Ayrılma</a></li>
                 <li><a href="Flooder.html">Kanala Spam Attırma</a></li>
                 <li><a href="Friender.html">Dost Ekleme</a></li>
-                <li><a href="Reactions.html">Reactions</a></li>
+                <li><a href="Reactions.html">Reaksiyon</a></li>
                 <li><a href="VCSpammer.html">VC spammer</a></li>
             </ul>
         </li>
@@ -108,7 +108,7 @@
   </nav>
 
 <body class="dark-body">
-      <h1 class="dark-title" style="margin-top: 40px;">Flooder</h1>
+      <h1 class="dark-title" style="margin-top: 40px;">Spam Attırma</h1>
       <br>
 
         <div class="center-block" style="width: 723px;">
@@ -117,10 +117,10 @@
 
             <div class="form-control dark-container center-block" style="width: 360px; height: 252px; padding: 0; display: inline-block;">
             
-              <input type="number" min="1" class="form-control dark-input center-block" style="width: 340px; margin-top: 10px" placeholder="Channel ID" id="channel-id">
+              <input type="number" min="1" class="form-control dark-input center-block" style="width: 340px; margin-top: 10px" placeholder="Kanal ID" id="channel-id">
               <br>
         
-              <textarea class="form-control dark-input center-block" rows="5" style="width: 340px; resize: none" placeholder="Message" id="message"></textarea>
+              <textarea class="form-control dark-input center-block" rows="5" style="width: 340px; resize: none" placeholder="Mesaj" id="message"></textarea>
               
               <!-- Check options (dm channel, add embed) -->
               <div class="center-block" style="width: 226px; margin-top: 16px">
@@ -156,5 +156,5 @@
 
       <button class="btn dark-btn center-block" style="width: 240px; margin-top: 36px" onclick="Submit()">Başlat</button>
 
-      <input type="number" min="1" max="2000" class="form-control dark-input" placeholder="Threads" id="thread-amount">
+      <input type="number" min="1" max="2000" class="form-control dark-input" placeholder="Konular" id="thread-amount">
 </html>
