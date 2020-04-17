@@ -40,7 +40,7 @@ function OnStatusUpdate(data) {
     statusLabel.innerText = data.status.toUpperCase();
 
     switch (statusLabel.innerText) {
-        case "READY":
+        case "hHAZIRH":
             statusLabel.style.color = "rgb(50,205,50)";
             break;
         case "LOADING BOTS":
@@ -59,8 +59,8 @@ function OnStatusUpdate(data) {
 
 function OnOverlookUpdate(data) {
     if (typeof data.accounts !== "undefined")
-        document.getElementById('account-amount').innerHTML = 'Loaded accounts: <span style="color: rgb(230,252,255)">' + data.accounts + '</span>';
-    document.getElementById('attack-amount').innerHTML = 'Ongoing attacks: <span style="color: rgb(230,252,255)">' + data.attacks + '</span>';
+        document.getElementById('account-amount').innerHTML = 'Yüklenen Hesaplar: <span style="color: rgb(230,252,255)">' + data.accounts + '</span>';
+    document.getElementById('attack-amount').innerHTML = 'Devam Eden Saldırılar: <span style="color: rgb(230,252,255)">' + data.attacks + '</span>';
 }
 
 
