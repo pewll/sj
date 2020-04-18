@@ -58,5 +58,5 @@ function AppendText(text) {
 
 
 function UpdateProgress(progress) {
-    document.getElementById('progress').innerText = 'Valid: ' + progress.valid + ' | Invalid: ' + progress.invalid + ' | ' + (progress.valid + progress.invalid) + '/' + progress.total;
+    document.getElementById('progress').innerText = 'Çalışan: ' + progress.valid + ' | Kapanan: ' + progress.invalid + ' | ' + (progress.valid + progress.invalid) + '/' + progress.total;
 }
